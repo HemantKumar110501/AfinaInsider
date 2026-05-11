@@ -1098,7 +1098,7 @@ img {
     margin-bottom: 40px;
 
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 45px;
 
     border-top: 2px solid black;
     border-bottom: 2px solid black;
@@ -1996,7 +1996,7 @@ img {
     font-size: 18px;
     letter-spacing: 0px;
     line-height: 30px;
-    color: #ffffff; 
+    color: #ffffff;
     font-weight: 600;
     font-family: "Source Sans 3";
     text-align: center;
@@ -2022,3 +2022,306 @@ img {
 
     margin-bottom: 30px;
 }
+
+/*! Comments   */
+.commentsSection {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    /* padding-bottom: 45px; */
+    /* border-bottom: 2px solid red; */
+}
+
+.commentsTopHeading {
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #1a1a1a;
+    font-weight: 800;
+    font-family: "Source Sans 3";
+}
+
+.commentContainer {
+    display: flex;
+    flex-direction: row;
+    /* align-items: flex-start; */
+    gap: 15px;
+
+}
+
+.comment1,
+.comment2,
+.comment3,
+.comment4 {
+    padding-bottom: 28px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.comment5 {
+    /* padding-bottom: 28px; */
+}
+
+.CommentPersonImageBox {
+    min-width: 45px;
+    width: 45px;
+    height: 45px;
+
+    border-radius: 50%;
+    overflow: hidden;
+
+    flex-shrink: 0;
+
+}
+
+.CommentPersonImageBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.commentMainBox {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    padding-top: 6px;
+}
+
+.commentatorDetails {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.commentPersonName {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 21px;
+    color: #222222;
+    font-weight: 700;
+    font-family: "Source Sans 3";
+}
+
+.commentPersonLocation {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 21px;
+    color: #bbbbbb;
+    font-weight: 500;
+    font-family: "Source Sans 3";
+}
+
+.commentOfPerson {
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 27px;
+    color: #222222;
+    font-weight: 500;
+    font-family: "Merriweather";
+}
+
+.commentLikesAndReply {
+
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 21px;
+    color: #bbbbbb;
+    font-weight: 500;
+    font-family: "Source Sans 3";
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.loadMoreCommentsBox {
+    padding: 14px 0px;
+    border-radius: 3px;
+    background-color: #f7f6f4;
+    border: 1px solid #e0e0e0;
+    /* text-align: center; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loadMoreComments {
+    font-size: 14px;
+    letter-spacing: 0px;
+    /* line-height: 21px; */
+    color: #222222;
+    font-weight: 700;
+    font-family: "Source Sans 3";
+    text-align: center;
+}
+
+
+/*!  More From Skincare Today */
+.moreSkinCareToday {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    padding-bottom: 50px;
+
+}
+
+.moreSkinCareTodayHeading {
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #1a1a1a;
+    font-weight: 800;
+    font-family: "Source Sans 3";
+}
+
+.moreSkinCareCardsContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.moreSkinCareCard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.moreSkinCareCardImageBox {
+    height: 135px;
+    width: 245px;
+}
+
+.moreSkinCareCardHeadingBox {
+    display: flex;
+}
+
+.moreSkinCareCardHeading {
+    font-size: 11px;
+    letter-spacing: 1px;
+    /* line-height: 34px; */
+    text-transform: uppercase;
+    color: #0e636d;
+    font-weight: 700;
+    font-family: "Source Sans 3";
+}
+
+.moreSkinCareCardInfoBox {
+    display: flex;
+}
+
+.moreSkinCareCardInfo {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 20px;
+    color: #1a1a1a;
+    font-weight: 700;
+    font-family: "Merriweather";
+}
+
+/* mainRight */
+
+
+/*! footer */
+.footerSection {
+    border-top: 1px solid #cfcfcf;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    padding-bottom: 50px;
+
+    margin: 0px auto;
+}
+
+.footerContainer {
+    padding-top: 40px;
+    max-width: 975px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.footerTop {}
+
+.footerMidPara {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    /* max-width: 975px;
+    width: 100%; */
+}
+
+.footerPara {
+    font-size: 12px;
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #6b6b6b;
+    font-weight: 500;
+    font-family: "Source Sans 3";
+    text-align: center;
+}
+
+.footerTandC {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footerTerms {
+    
+}
+
+.footerTerms{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    list-style: none;
+}
+
+.footerTerms li{
+    /* list-style: none; */
+    display: flex;
+    align-items: center;
+}
+
+.footerTerms li:not(:last-child)::after{
+    content: "|";
+    margin-left: 15px;
+}
+
+.footerTerms a{
+    text-decoration: none;
+    color: #222;
+    position: relative;
+
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 32px;
+    color: #7e7e7e;
+    font-weight: 500;
+    font-family: "Source Sans 3";
+    
+}
+
+.footerCopyright{
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 32px;
+    color: #7e7e7e;
+    font-weight: 500;
+    font-family: "Source Sans 3";
+    text-align: center;
+}
+
