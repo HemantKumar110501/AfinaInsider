@@ -12,6 +12,7 @@
 img {
     width: 100%;
     height: 100%;
+    display: block;
 }
 
 .container {
@@ -57,6 +58,7 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .afinaLogoBox {
@@ -95,7 +97,7 @@ img {
     letter-spacing: 0px;
     /* line-height: 44px; */
     color: #000000;
-    font-weight: 400;
+    font-weight: 700;
     font-family: "Source Sans 3", sans-serif;
     text-align: right;
 }
@@ -105,7 +107,7 @@ img {
     letter-spacing: 0px;
     /* line-height: 44px; */
     color: #777777;
-    /* font-weight: 200; */
+    font-weight: 500;
     font-family: "Source Sans 3", sans-serif;
     text-align: right;
 }
@@ -210,9 +212,9 @@ img {
 .filteredShowerHeading h5 {
     width: 80%;
     font-size: 38px;
-    /* line-height: 50px; */
+    line-height: 50px;
     color: #1a1a1a;
-    font-weight: 500;
+    font-weight: 800;
     font-family: "Merriweather";
 
 }
@@ -246,12 +248,13 @@ img {
 .filterShowerImageContainer {
     display: flex;
     flex-direction: column;
+    gap: 3px;
 }
 
 .imageContainerBottom {
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    gap: 3px;
 }
 
 
@@ -275,7 +278,7 @@ img {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    gap: 8px;
+    gap: 20px;
 }
 
 .editorNameAndDesg {
@@ -336,7 +339,7 @@ img {
     white-space: nowrap;
 
     border-left: 1px solid #777777;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 
@@ -383,7 +386,7 @@ img {
 .filterShowerBottomPara p:first-child {
     font-size: 20px;
     letter-spacing: 0px;
-    /* line-height: 30px; */
+    line-height: 30px;
     color: #222222;
     font-weight: 400;
     font-family: "Merriweather", sans-serif;
@@ -392,7 +395,7 @@ img {
 .filterShowerBottomPara p:nth-child(2) {
     font-size: 20px;
     letter-spacing: 0px;
-    /* line-height: 30px; */
+    line-height: 30px;
     color: #222222;
     font-weight: 600;
     font-family: "Merriweather", sans-serif;
@@ -404,17 +407,17 @@ img {
     /* line-height: 30px; */
     text-decoration: underline;
     color: #000fff;
-    font-weight: 300;
+    font-weight: 600;
     font-family: "Merriweather", sans-serif;
 }
 
 .filterShowerBottomPara p:nth-child(3) {
     font-size: 18px;
     letter-spacing: 0px;
-    /* line-height: 30px; */
+    line-height: 30px;
 
     color: #222222;
-    font-weight: 300;
+    font-weight: 400;
     font-family: "Merriweather", sans-serif;
 }
 
@@ -435,8 +438,8 @@ img {
     /* justify-content: space-evenly; */
     gap: 10px;
 
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 20px;
 }
 
@@ -533,7 +536,7 @@ img {
 .showerBottomPara p:first-child {
     font-size: 18px;
     letter-spacing: 0px;
-    /* line-height: 30px; */
+    line-height: 30px;
     color: #222222;
     font-weight: 400;
     font-family: "Merriweather", sans-serif;
@@ -542,7 +545,7 @@ img {
 .showerBottomPara p:last-child {
     font-size: 18px;
     letter-spacing: 0px;
-    /* line-height: 30px; */
+    line-height: 30px;
     color: #222222;
     font-weight: 700;
     font-family: "Merriweather", sans-serif;
@@ -553,7 +556,7 @@ img {
 /*! jessicaJourney  */
 
 .jessicaJourney {
-    background-color: rgb(230, 230, 192);
+    background-color: #fffbf3;
     padding: 30px;
 
     display: flex;
@@ -564,7 +567,7 @@ img {
 .jessicaJourneyHeading h5 {
     font-size: 28px;
     letter-spacing: 1px;
-    /* line-height: 38px; */
+    line-height: 38px;
     color: #222222;
     font-weight: 700;
     font-family: "Merriweather", sans-serif;
@@ -605,5 +608,1280 @@ img {
 
 /*! jessicaWordsBox */
 
+.jessicaWordsBox {
+    display: grid;
 
+    grid-template-columns: 1.2fr 1fr;
+
+
+    gap: 30px;
+    padding-left: 25px;
+
+    border-left: 4px solid red;
+}
+
+.jessicaWordsLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+
+
+}
+
+.jessicaWrittenWords {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #222222;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Merriweather";
+}
+
+.jessicaNameAgeCityBox {
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+}
+
+.jessicaNameAgeCityBox span:first-child {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #222222;
+    font-weight: 200;
+    font-family: "Merriweather";
+}
+
+.jessicaNameAgeCityBox span:first-child b {
+    font-weight: 500;
+}
+
+.jessicaNameAgeCityBox span:last-child {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    color: #888887;
+    font-weight: 300;
+    font-family: "Merriweather";
+}
+
+
+
+.jessicaWordsBottom {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    gap: 20px;
+    /* align-items: center; */
+}
+
+
+
+.jessicaImageBox {
+    border-radius: 22px;
+    max-width: 45px;
+}
+
+
+
+/*! Jessica Frustated Para  */
+.jessicaFrustatedPara {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.jessicaFrustatedPara p:first-child {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #222222;
+    font-weight: 400;
+    font-family: "Merriweather";
+}
+
+.jessicaFrustatedPara p:last-child {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #222222;
+    font-weight: 700;
+    font-family: "Merriweather";
+}
+
+/*! Jessica Shower Problem */
+.jessicaShowerProblem {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.jessicaShowerImageBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.jessicaShowerPara {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 25px;
+
+    border-left: 4px solid red;
+}
+
+.jessicaShowerPara p {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #222222;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Merriweather";
+}
+
+
+/*! Jessica Filtered Solution */
+.jessicaFilteredSolution {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.jessicaSolutionHeading p {
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #222222;
+    font-weight: 400;
+    font-family: "Merriweather";
+}
+
+.jessicaSolutionHeading p a {
+    font-weight: 600;
+}
+
+
+.solutionVideoBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.solutionComment {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.solutionComment p:first-child {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #222222;
+    font-weight: 400;
+    font-family: "Merriweather";
+}
+
+.solutionComment p:last-child {
+    font-size: 22px;
+    letter-spacing: 0px;
+    line-height: 34px;
+    color: #222222;
+    font-weight: 500;
+    font-style: italic;
+    font-family: "Merriweather";
+}
+
+.solutionBeforeandAfterImageBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.solutionHairBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+.solutionCheeksBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+.solutionBeforeAfterPara p {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    color: #222222;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Merriweather";
+}
+
+
+/* AFina Products and Customer Review */
+.afinaProductsandCustomerReviewBox {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.afinaPandCReviewHeading p {
+    font-size: 28px;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: #222222;
+    font-weight: 700;
+    font-family: "Merriweather";
+}
+
+
+
+.afinaPandCImageContainer {
+    display: grid;
+
+    grid-template-columns: repeat(5, 1fr);
+
+    gap: 10px;
+}
+
+.gridItem img {
+
+    object-fit: cover;
+
+}
+
+.centerCard {
+    padding: 0px 31px;
+    grid-column: span 3;
+
+    background-color: white;
+    display: flex;
+
+    gap: 56px;
+    align-items: center;
+
+    position: relative;
+
+}
+
+.gridImage7ContentBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* padding-left: 30px; */
+    /* border-left: 2px solid #777777; */
+}
+
+.gridImage7ContentBox::before {
+    position: absolute;
+    left: 51%;
+    top: 15%;
+
+    content: "";
+    width: 1px;
+    height: 105px;
+
+    background-color: #777777;
+
+}
+
+
+.grid7RatingDesc h6 {
+    font-size: 18px;
+    letter-spacing: 0px;
+    /* line-height: 38px; */
+    color: #000000;
+    font-weight: 400;
+    font-family: "Source Sans 3";
+}
+
+.grid7RatingDesc h5 {
+    font-size: 26px;
+    letter-spacing: 0px;
+    /* line-height: 38px; */
+    color: #000000;
+    font-weight: 700;
+    font-family: "Source Sans 3";
+}
+
+
+.afinaShowerDescribe {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.afinaShowerPara {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.afinaShowerPara p {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    color: #000000;
+    font-weight: 500;
+    font-family: "Merriweather";
+}
+
+.afinaShowerPara p a {
+    font-weight: 700;
+}
+
+
+/*! Afina Skin and Hair Dryness */
+.afinaSkinandHairDrynessBox {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    background-color: #fffbf3;
+    padding: 30px;
+}
+
+.afinaSkinandHairDesc {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.afinaSkinandHairPara p {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 32px;
+    color: #222222;
+    font-weight: 400;
+    font-family: "Merriweather";
+}
+
+.afinaSkinandHairCheckpoints {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.afinaSkinandHairCheckpoints ul {
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.afinaSkinandHairCheckpoints ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.afinaSkinandHairCheckpoints ul li p {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #222222;
+    font-weight: 700;
+    font-family: "Merriweather";
+}
+
+.underline {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+}
+
+.afinaSkinandHairCheckpoints img {
+    max-width: 25px;
+}
+
+.afinaSkinandHairImageBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.afinaSkinandHairImageBox h5 {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Source Sans 3";
+    text-align: center;
+}
+
+.afinaSkinImageBox {
+    position: relative;
+}
+
+.afinaSkinBefore {
+    position: absolute;
+    left: 6%;
+    bottom: 2%;
+}
+
+.afinaSkinAfter {
+    position: absolute;
+    left: 57%;
+    bottom: 2%;
+}
+
+.afinaHairImageBox {
+    position: relative;
+}
+
+.afinaHairBefore {
+    position: absolute;
+    left: 6%;
+    bottom: 2%;
+}
+
+.afinaHairAfter {
+    position: absolute;
+    left: 57%;
+    bottom: 2%;
+}
+
+
+/*! Skin Hair and Overall Health  */
+.skinHairAndOverallHealth {
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.skinHairAndOverallHealthHeading {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.skinHairAndOverallHealthHeading h5 {
+    font-size: 28px;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: #222222;
+    font-weight: 700;
+    font-family: "Merriweather";
+}
+
+.skinHairAndOverallHealthHeading p {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    color: #222222;
+    font-weight: 500;
+    font-family: "Merriweather";
+}
+
+.hairBreakoutSkinHairCardContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    gap: 18px;
+}
+
+.hairBreakoutSkinHairCard {
+    display: flex;
+    flex-direction: column;
+}
+
+.hairBreakoutSkinHairCardImageBox {
+    border: 2px solid #f14040;
+    height: 190px;
+}
+
+.hairBreakoutSkinHairCardInfo {
+    padding: 15px 0px;
+
+    background-color: #f14040;
+}
+
+.hairBreakoutSkinHairCardInfo h6 {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Source Sans 3", sans-serif;
+    text-align: center;
+}
+
+.afinaBlackShower {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 30px;
+}
+
+.afinaBlackShowerPara {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.afinaBlackShowerPara p {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    color: #000;
+    font-weight: 500;
+    font-family: "Merriweather";
+}
+
+.afinaBlackShowerPara p a {
+    font-weight: 700;
+}
+
+
+.afinaBlackShowerCustomerImprovementsBox {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.afinaBlackShowerCustomerHeading h5 {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 28px;
+
+    color: #000;
+    font-weight: 700;
+    font-family: "Merriweather";
+}
+
+
+.afinaBlackShowerCustomerReviewsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.afinaBlackShowerCustomerReviewsBox {
+    display: flex;
+    flex-direction: row;
+
+    gap: 40px;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #f7f6f4;
+    border: 1px solid #e0e0e0;
+}
+
+.afinaBlackShowerCustomerReviewCommentBox {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    width: 80%;
+}
+
+.afinaBlackCRRatingStars {
+    width: 20%;
+}
+
+.afinaBlackShowerCRReviewPara p {
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 27px;
+    color: #222222;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Merriweather";
+}
+
+.afinaBlackShowerCRCustomerDetails {}
+
+.afinaBlackShowerCRCustomerDetails span {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.afinaBlackShowerCRCustomerDetails span img {
+    max-width: 13px;
+}
+
+.afinaBlackShowerCRCustomerDetails span h6 {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 21px;
+    color: #222222;
+    font-weight: 600;
+    font-family: "Source Sans 3";
+}
+
+.afinaBlackShowerCRCustomerDetails span p {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #727272;
+    font-weight: 400;
+    font-family: "Source Sans 3";
+}
+
+.afinaBlackShowerCRImageBox {
+    /* max-width: 165px; */
+}
+
+/*! afinaScienceBehind */
+.afinaScienceBehind {
+
+    border-top: 2px solid black;
+    padding-top: 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.afinaScienceBehindHeading {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    padding-bottom: 40px;
+}
+
+.afinaScienceBehindHeading h5 {
+    font-size: 28px;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: #222222;
+    font-weight: 700;
+    font-family: "Merriweather";
+}
+
+.afinaScienceBehindHeading p {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    color: #000000;
+    font-weight: 500;
+    font-family: "Merriweather";
+}
+
+.afinaScienceBehindMediaBox {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.afinaScienceBehindFiltrationProcess {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.afinaScienBehindFiltrationHeading span {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    color: #222222;
+    font-weight: 700;
+    font-family: "Merriweather";
+}
+
+.filtrationProcessCardsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.filtrationProcessCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    align-items: center;
+    background-color: #eefbfc;
+    border-left: 4px solid #1ba9ba;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.filtrationProcessDesc {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    width: 65%;
+}
+
+.filtrationProcessHeading h5 {
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    color: #1a1a1a;
+    font-weight: 600;
+    font-family: "Merriweather";
+}
+
+.filtrationProcessPara p {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    color: #1a1a1a;
+    font-weight: 500;
+    font-family: "Merriweather";
+}
+
+.afinaScienceBehindFiltrationPara p {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    color: #222222;
+    font-weight: 600;
+    font-style: italic;
+    font-family: "Merriweather";
+}
+
+.afinaScienceBehindFiltrationPara p a {
+    font-weight: 700;
+}
+
+
+.elevateSkincareRoutine {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    border-top: 2px solid black;
+    padding-top: 40px;
+}
+
+.elevateSkincareHeading h5 {
+    font-size: 28px;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: #222222;
+    font-weight: 600;
+    font-family: "Merriweather";
+}
+
+.elevateSkincareImageBox {
+    /* background-image: url("./assets/images/elevateSkincareImage.png"); */
+    background-image: url("./assets/images/Elevated\ SkinCare\ Image.png");
+    padding: 40px 50px 40px 0px;
+    /* overflow: hidden; */
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.elevateSkincareStatsBox {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+    filter: drop-shadow(0 0 7px rgba(0, 0, 0, 0.1));
+    justify-self: flex-end;
+    width: 45%;
+}
+
+.elevateSkincareStat {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #ffffff;
+    padding: 13px 20px;
+    border-radius: 5px;
+
+}
+
+.elevateSkincarePercentageandBarBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.elevateSkincarePercentage h6 {
+    font-size: 26px;
+    letter-spacing: 1px;
+    line-height: 33px;
+    color: #000000;
+    font-weight: 600;
+    font-family: "Merriweather";
+    text-align: center;
+}
+
+.elevateSkincareStatsDesc p {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Source Sans 3";
+}
+
+.elevateSkincareProgressBar {
+    width: 100%;
+    height: 6px;
+
+    background-color: #d9dede;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+}
+
+.progressFill {
+    width: 90%;
+    height: 100%;
+
+    background-color: #22b8c7;
+
+    border-radius: 20px;
+}
+
+.elevateSkincareDesc {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.elevateSkincareDesc p,
+.para {
+    /*! Defined general paragraph(p) class*/
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    color: #222222;
+    font-weight: 600;
+    font-family: "Merriweather";
+}
+
+.elevateSkincareDesc p a,
+.anchorTags {
+    /*! Defined general anchor(anchorTags) class*/
+    font-weight: 700;
+    color: #000fff;
+}
+
+/*! afinaInstallandMaintain */
+.afinaInstallandMaintain {
+
+    border-top: 2px solid black;
+    padding-top: 40px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.afinaInstallandMaintainHeading h5,
+.section-heading {
+    /*! Defined general heading class*/
+    font-size: 28px;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: #222222;
+    font-weight: 700;
+    font-family: "Merriweather";
+}
+
+.afinaInstallandMaintainCardContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.afinaInstallandMaintainCard {
+    position: relative;
+}
+
+.afinaInstallandMaintainImageBox {
+    /* position: relative; */
+}
+
+.afinaInstallandMaintainCardInfo {
+    position: absolute;
+    background-color: #1ba9ba;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    /* padding: 13px 20px 10px 25px; */
+    /* padding: 13px 0px; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.afinaInstallandMaintainCardInfo span {
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 34px;
+    color: #fefefe;
+    font-weight: 600;
+    font-family: "Merriweather";
+    text-align: center;
+    white-space: nowrap;
+}
+
+.afinaInstallStepNoBox {
+    position: absolute;
+
+    top: -6%;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+
+    background-color: white;
+
+    border: 3px solid #1ba9ba;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 10;
+}
+
+.afinaInstallStepNoBox span {
+    font-size: 24px;
+    letter-spacing: 0px;
+    line-height: 34px;
+    color: #222222;
+    font-weight: 600;
+    font-family: "Merriweather";
+    text-align: center;
+}
+
+
+.afinaInstallandMaintainPara {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.afinaInstallandMaintainPara p {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    color: #222222;
+    font-weight: 500;
+    font-family: "Merriweather";
+}
+
+/*! handsOnTheAfina */
+
+.handsOnTheAfina {
+    padding-top: 40px;
+    border-top: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.handsOfAfinaHeading {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+
+/*! chooseAfinaFilteredShower */
+.chooseAfinaFilteredShower {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    padding-top: 40px;
+    border-top: 2px solid black;
+}
+
+.chooseAfinaFilterShowerImageBox {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
+
+.chooseAfinaCardContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.chooseAfinaCard {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card1 {
+    background-color: #f7f6f4;
+    border-left: 4px solid #e1dbd0;
+    padding: 30px 40px 30px 35px;
+}
+
+.cardHeading {
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    color: #1a1a1a;
+    font-weight: 700;
+    font-family: "Merriweather";
+}
+
+.card2 {
+    background-color: #eefbfc;
+    border-left: 4px solid #1ba9ba;
+    padding: 30px 40px 30px 35px;
+
+}
+
+.checkpointsList {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.li-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.li-item img {
+    max-width: 25px;
+}
+
+.li-item p {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #1a1a1a;
+    font-weight: 700;
+    font-family: "Merriweather";
+}
+
+/*! why afina Replacement  */
+.whyAfinaReplacement {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.whyAfinaPara {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.whyAfinaCardContainer {
+    background-color: #eefbfc;
+    border-left: 4px solid #1ba9ba;
+    padding: 30px 20px 0px 30px;
+
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-between;
+
+}
+
+.whyAfinaCardDesc {
+    width: 65%;
+}
+
+
+/*! dontMissOut */
+.dontMissOut {
+    /* padding-top: 40px; */
+    /* border-top: 2px solid black; */
+    border-radius: 5px;
+    background-color: #f7f6f4;
+    border: 1px solid #d5b8b5;
+
+    padding: 20px 35px 40px 25px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+.tags {
+    background-color: #1ba9ba;
+    padding: 7px 12px;
+
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Source Sans 3";
+}
+
+.dontMissOutPara {
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 60px;
+}
+
+.riskFreeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 20px; */
+}
+
+.riskFreeTop span {
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 58px;
+    color: #5b5b5b;
+    font-weight: 400;
+    font-family: "Source Sans 3";
+    text-align: center;
+}
+
+.riskFreeAvailabiltyContainer {
+    filter: drop-shadow(0px 5px 2.5px rgba(0, 0, 0, 0.18));
+    background-color: #01b95e;
+    padding: 5px 0px;
+    width: 100%;
+}
+
+.riskFreeAvailabiltyContainer span {
+    /* display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+.riskFreeAvailabiltyContainer span p {
+    font-size: 20px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Source Sans 3";
+    text-align: center;
+
+    white-space: nowrap;
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.riskFreeAvailabiltyContainer span p img {
+    max-width: 20px;
+}
+
+.riskFreeBottom span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+
+}
+
+.riskFreeBottom span img {
+    max-width: 14px;
+}
+
+.riskFreeBottom span p {
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 58px;
+    color: #777777;
+    font-weight: 500;
+    font-family: "Source Sans 3";
+    text-align: center;
+}
+
+/*! takeFirstStep */
+.takeFirstStep{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.takeFirstStepImageBox{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.takeFirstStepCheeksImageBox{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.takeFirstStepPara{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    margin-bottom: 30px;
+}
 
