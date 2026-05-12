@@ -249,9 +249,9 @@ img {
 }
 
 .mainRight {
-    max-width: 295%;
+    max-width: 300px;
     width: 100%;
-    background-color: black;
+    /* background-color: #c2d0d2; */
 }
 
 
@@ -2224,7 +2224,368 @@ img {
     font-family: "Merriweather";
 }
 
-/* mainRight */
+/*! mainRight */
+/*! Featured Product  */
+.mainRight {
+    max-width: 300px;
+    width: 100%;
+    /* background-color: #c2d0d2; */
+
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.featuredProductBox {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    padding: 25px 20px 30px 20px;
+
+
+    border-radius: 3px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    background-color: #ffffff;
+    border: 2px solid #ccc9c6;
+}
+
+.featuredTag {
+
+    padding: 7px;
+    background-color: #1ba9ba;
+
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Source Sans 3";
+    text-align: center;
+}
+
+.featuredDescBox {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    align-items: center;
+    justify-content: center;
+
+    border-bottom: 1px solid #cfcfcf;
+    /* border-bottom: 1px solid red; */
+    padding-bottom: 20px;
+}
+
+.featuredDescHeading {
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: 800;
+    font-family: "Merriweather";
+}
+
+.featuredProductRatingandReviewsBox {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.featuredProductRatingBox {
+    max-width: 60px;
+}
+
+.featuredProductRatingBox {
+    display: flex;
+}
+
+.featuredProductRating {
+    font-size: 14px;
+    line-height: 20px;
+    color: #777777;
+    font-weight: 500;
+    font-family: "Source Sans 3";
+    text-align: center;
+}
+
+.featuredProductSubscribeBox {
+    display: flex;
+}
+
+.featuredProductSubscribeList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    list-style: none;
+    /* padding: 0;
+    margin: 0; */
+
+
+    font-size: 14px;
+    line-height: 20px;
+    color: #777777;
+    font-weight: 500;
+    font-family: "Source Sans 3";
+    text-align: center;
+}
+
+.featuredProductSubscribeListItem:not(:first-child)::before {
+    content: "•";
+    margin-right: 10px;
+}
+
+
+.featuredProductsCheckpointsBox {
+    display: flex;
+}
+
+.featuredProductsCheckpointsList {
+    display: flex;
+    flex-direction: column;
+}
+
+.featuredProductsCheckpointsListItem {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+    align-items: center;
+}
+
+.featuredProductsCheckpointsListItemText {
+    font-size: 14px;
+    line-height: 26px;
+    color: #373737;
+    font-weight: 600;
+    font-family: "Source Sans 3";
+}
+
+.featuredProductsCheckpointsListItem img {
+    width: 10px;
+    height: 10px;
+}
+
+
+.featuredProductCheckAvailabiltyBox {
+    display: flex;
+}
+
+.featuredProductCheckAvailabiltySpan {
+
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* padding: 20px 0px; */
+
+    filter: drop-shadow(0px 5px 2.5px rgba(0, 0, 0, 0.18));
+    text-decoration: none;
+    background-color: #01b95e;
+    font-size: 16px;
+    line-height: 44px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Source Sans 3";
+    text-align: center;
+}
+
+.featuredProductCheckAvailabiltySpan a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.featuredProductCheckAvailabiltySpan img {
+    width: 18px;
+    height: 10px;
+}
+
+.moneyBackGuaranteeBox {
+    display: flex;
+}
+
+.moneyBackGuaranteeList {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 5px;
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.moneyBackGuaranteeListItem {
+
+    white-space: nowrap;
+
+    font-size: 13px;
+    line-height: 20px;
+    color: #777777;
+    font-weight: 500;
+    font-family: "Source Sans 3";
+    text-align: center;
+}
+
+.moneyBackGuaranteeListItem:not(:first-child)::before {
+    content: "•";
+    margin-right: 6px;
+}
+
+/*!  weeklyBeautyBriefContainer */
+.weeklyBeautyBriefContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    padding: 30px 20px;
+
+    border-radius: 3px;
+    background-color: #1c4145;
+    border: 1px solid #ccc9c6;
+
+}
+
+.weeklyBeautyBriefHeadingBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.weeklyBeautyBriefHeading {
+    font-size: 17px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Merriweather";
+}
+
+.weeklyBeautyBriefHeadingPara {
+    font-size: 13px;
+    line-height: 20px;
+    color: #c9d6f0;
+    font-weight: 400;
+    font-family: "Source Sans 3";
+}
+
+.emailInputBox {
+    display: flex;
+}
+
+.emailInput {
+    width: 100%;
+    padding: 20px 10px 20px 10px;
+}
+
+.emailInput::placeholder {
+    font-size: 14px;
+    line-height: 24px;
+    color: #7b7b7b;
+    font-weight: 400;
+    font-family: "Source Sans 3";
+}
+
+
+.subscribeFreeBoxSpan {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0px;
+    filter: drop-shadow(0px 5px 2.5px rgba(0, 0, 0, 0.18));
+    text-decoration: none;
+    background-color: #01b95e;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Source Sans 3";
+    text-align: center;
+}
+
+.subscribeFreeBoxSpanText {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+.subscribeFreeBoxSpan img {
+    width: 18px;
+    height: 10px;
+}
+
+
+/*! Trending this week  */
+.trendingThisWeekContainer {
+    display: flex;
+    flex-direction: column;
+    /* gap: 15px; */
+
+
+    border-top: 2px solid black;
+    padding-top: 30px;
+    /* padding-bottom: 40px; */
+}
+
+.trendingHeadingBox {
+    display: flex;
+    flex-direction: row;
+}
+
+.trendingHeading {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 58px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+
+.trendingContentContainer {
+    display: flex;
+    flex-direction: column;
+    /* gap: 30px; */
+}
+
+.trendingContentCard {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #727272;
+}
+
+.trendingContentCard:last-child{
+    border-bottom: none;
+}
+
+.trendingContentCardImageBox {
+    min-width: 55px;
+    height: 55px;
+}
+
+.trendingContentCardDesc {
+    display: flex;
+}
+
+.trendingContentCardDescText {
+    font-size: 14px;
+    line-height: 22px;
+    color: #1a1a1a;
+    font-weight: 600;
+    font-family: "Merriweather";
+}
 
 
 /*! footer */
@@ -2240,6 +2601,7 @@ img {
 }
 
 .footerContainer {
+    margin: 0px auto;
     padding-top: 40px;
     max-width: 975px;
     width: 100%;
@@ -2278,11 +2640,9 @@ img {
     gap: 10px;
 }
 
-.footerTerms {
-    
-}
+.footerTerms {}
 
-.footerTerms{
+.footerTerms {
     display: flex;
     align-items: center;
     gap: 12px;
@@ -2290,18 +2650,18 @@ img {
     list-style: none;
 }
 
-.footerTerms li{
+.footerTerms li {
     /* list-style: none; */
     display: flex;
     align-items: center;
 }
 
-.footerTerms li:not(:last-child)::after{
+.footerTerms li:not(:last-child)::after {
     content: "|";
     margin-left: 15px;
 }
 
-.footerTerms a{
+.footerTerms a {
     text-decoration: none;
     color: #222;
     position: relative;
@@ -2312,10 +2672,10 @@ img {
     color: #7e7e7e;
     font-weight: 500;
     font-family: "Source Sans 3";
-    
+
 }
 
-.footerCopyright{
+.footerCopyright {
     font-size: 16px;
     letter-spacing: 0px;
     line-height: 32px;
@@ -2324,4 +2684,3 @@ img {
     font-family: "Source Sans 3";
     text-align: center;
 }
-
