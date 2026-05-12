@@ -1,2 +1,829 @@
+@media (max-width:1240px) {
+    .container {
+        margin: 0px auto;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .main {
+        /* max-width: 857px; */
+        /* display: flex;
+        flex-direction: column; */
+        max-width: 100%;
+    }
+
+    .mainLeft {
+        /* padding-right: 30px; */
+    }
+
+    .mainRight {
+        gap: 20px;
+    }
+}
 
 
+@media(max-width:1022px) {
+    .filterShowerEditor {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+    }
+
+    .editorRight {
+        justify-content: center;
+    }
+}
+
+
+@media (max-width:991px) {
+    .container {
+        margin: 0px auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .Heading {
+        font-size: 32px;
+    }
+
+    .jessicaJourney {
+        padding: 24px;
+
+    }
+
+    .jessicaWordsBox {
+        grid-template-columns: 1fr;
+    }
+
+    .hairBreakoutSkinHairCardContainer {
+        gap: 8px;
+        /* flex-direction: wrap; */
+    }
+
+    .hairBreakoutSkinHairCardInfo {
+        padding: 5px 0px;
+    }
+
+    .hairBreakoutSkinHairCardInfo h6 {
+        font-size: 15px;
+        letter-spacing: 0px;
+        line-height: 19px;
+    }
+
+}
+
+/* Right ko column kr rhe */
+@media (max-width:857px) {
+
+    .container {
+        margin: 0px auto;
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+
+    .filteredShowerHeading {
+        padding-right: 20px;
+    }
+
+    .main {
+        /* max-width: 857px; */
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .mainLeft {
+        width: 100%;
+        max-width: 100%;
+        padding-right: 20px;
+    }
+
+    .mainRight {
+        width: 100%;
+        max-width: 100%;
+        padding-right: 20px;
+
+        gap: 20px;
+    }
+
+    .Heading {
+        font-size: 30px;
+    }
+
+    .filterShowerBottomPara p:first-child {
+        font-size: 18px;
+
+    }
+
+    .filterShowerBottomPara p:nth-child(2) {
+        font-size: 18px;
+    }
+
+    .filterShowerBottomPara p:nth-child(3) {
+        font-size: 16px;
+    }
+
+    .filterShowerBottomPara {
+        gap: 20px;
+    }
+
+    .filterShowerBottomPara {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .showerBottomPara p:first-child {
+        font-size: 16px;
+    }
+
+    .showerBottomPara p:last-child {
+        font-size: 16px;
+    }
+
+    .showerBottomPara {
+        padding-top: 26px;
+        padding-bottom: 26px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .jessicaJourney {
+        padding: 20px;
+        gap: 25px;
+    }
+
+    .jessicaJourneyHeading h5 {
+        font-size: 26px;
+    }
+
+    .jessicaPara1 p:first-child {
+        font-size: 16px;
+    }
+
+    .jessicaPara1 p:last-child {
+        font-size: 16px;
+    }
+
+    .jessicaWrittenWords {
+        font-size: 16px;
+    }
+
+    .jessicaWordsBox {
+        display: grid;
+        gap: 30px;
+        padding-left: 16px;
+    }
+
+    .jessicaFrustatedPara p:first-child {
+        font-size: 16px;
+    }
+
+    .jessicaFrustatedPara p:last-child {
+        font-size: 16px;
+    }
+
+    .jessicaShowerProblem {
+        gap: 25px;
+    }
+
+    .jessicaShowerPara {
+        padding-left: 16px;
+    }
+
+    .jessicaShowerPara p {
+        font-size: 16px;
+    }
+
+    .jessicaFilteredSolution {
+        gap: 35px;
+    }
+
+    .jessicaSolutionHeading p {
+        font-size: 18px;
+    }
+
+    .solutionVideoBox {
+        gap: 15px;
+    }
+
+    .solutionComment p:first-child {
+        font-size: 16px;
+    }
+
+    .solutionComment p:last-child {
+        font-size: 20px;
+    }
+
+    .solutionBeforeAfterPara p {
+        font-size: 16px;
+    }
+
+    .afinaProductsandCustomerReviewBox {
+        margin-top: 30px;
+        padding-top: 30px;
+        gap: 35px;
+    }
+
+    .afinaShowerPara p {
+        font-size: 16px;
+    }
+
+    .afinaShowerPara {
+        width: 90%;
+        gap: 20px;
+    }
+
+    .afinaShowerDescribe {
+        gap: 35px;
+    }
+
+    .afinaSkinandHairDrynessBox {
+        margin-top: 25px;
+        gap: 28px;
+        padding: 25px;
+    }
+
+    .afinaSkinandHairPara p {
+        font-size: 16px;
+    }
+
+    .afinaSkinandHairCheckpoints ul li {
+        gap: 10px;
+    }
+
+    .afinaSkinandHairCheckpoints ul {
+        gap: 15px;
+    }
+
+    .afinaSkinandHairCheckpoints img {
+        max-width: 15px;
+    }
+
+    .afinaSkinandHairCheckpoints ul li p {
+        font-size: 16px;
+        letter-spacing: 0px;
+        line-height: 26px;
+        color: #222222;
+        font-weight: 700;
+        font-family: "Merriweather";
+    }
+
+    .afinaSkinandHairDesc {
+        gap: 25px;
+    }
+
+    .skinHairAndOverallHealth {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        gap: 30px;
+    }
+
+    .skinHairAndOverallHealthHeading h5 {
+        font-size: 26px;
+    }
+
+    .skinHairAndOverallHealthHeading p {
+        font-size: 16px;
+    }
+
+    .skinHairAndOverallHealthHeading {
+        gap: 20px;
+    }
+
+    .hairBreakoutSkinHairCardContainer {
+        gap: 12px;
+    }
+
+    .afinaBlackShowerPara p {
+        font-size: 16px;
+    }
+
+    .afinaBlackShower {
+        gap: 20px;
+    }
+
+    .afinaBlackShowerPara {
+        gap: 25px;
+    }
+
+    .afinaBlackShowerCustomerHeading h5 {
+        font-size: 16px;
+    }
+
+    .afinaBlackShowerCustomerImprovementsBox {
+        gap: 30px;
+    }
+
+    .afinaBlackShowerCustomerReviewsBox {
+        gap: 25px;
+        padding: 18px 25px 15px 18px;
+    }
+
+    .afinaBlackShowerCRReviewPara p {
+        font-size: 15px;
+    }
+
+    .afinaBlackShowerCRCustomerDetails span {
+        gap: 7px;
+    }
+
+    .afinaBlackShowerCRCustomerDetails span h6 {
+        font-size: 16px;
+    }
+
+    .afinaBlackShowerCRCustomerDetails span p {
+        font-size: 13px;
+    }
+
+    .afinaBlackCRRatingStars {
+        width: 16%;
+    }
+
+    .afinaBlackShowerCustomerReviewsContainer {
+        gap: 15px;
+    }
+
+    .afinaBlackShowerCRCustomerDetails span img {
+        max-width: 11px;
+    }
+
+    .afinaScienceBehind {
+        padding-top: 30px;
+    }
+
+    .afinaScienceBehindHeading h5 {
+        font-size: 26px;
+    }
+
+    .afinaScienceBehindHeading {
+        gap: 20px;
+        padding-bottom: 30px;
+    }
+
+    .afinaScienceBehindFiltrationProcess {
+        padding-top: 30px;
+        gap: 30px;
+    }
+
+    .afinaScienBehindFiltrationHeading span {
+        font-size: 16px;
+    }
+
+    .filtrationProcessCards {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .filtrationProcessDesc {
+        gap: 15px;
+        width: 70%;
+    }
+
+    .filtrationProcessHeading h5 {
+        font-size: 18px;
+    }
+
+    .filtrationProcessPara p {
+        font-size: 16px;
+    }
+
+    .afinaScienceBehindFiltrationPara p {
+        font-size: 16px;
+    }
+
+    .elevateSkincareRoutine {
+        gap: 25px;
+        padding-top: 30px;
+    }
+
+    .elevateSkincareImageBox {
+        padding: 25px 32px 25px 0px;
+    }
+
+    .elevateSkincareStat {
+        gap: 6px;
+        padding: 8px 16px;
+    }
+
+    .elevateSkincareStat {
+        gap: 6px;
+
+        padding: 8px 16px;
+    }
+
+    .elevateSkincarePercentage h6 {
+        font-size: 22px;
+    }
+
+    .elevateSkincareDesc p,
+    .para {
+        font-size: 16px;
+    }
+
+    .elevateSkincareDesc {
+        gap: 25px;
+    }
+
+    .elevateSkincareDesc {
+        gap: 25px;
+    }
+
+    .afinaInstallandMaintain {
+        padding-top: 30px;
+        gap: 30px;
+    }
+
+    .afinaInstallandMaintainHeading h5,
+    .section-heading {
+        font-size: 26px;
+    }
+
+    .afinaInstallandMaintainHeading h5,
+    .section-heading {
+        font-size: 26px;
+    }
+
+    .afinaInstallandMaintainCardContainer {
+        gap: 7px;
+    }
+
+    .afinaInstallandMaintainPara p {
+        font-size: 16px;
+    }
+
+    .afinaInstallandMaintainPara p {
+        font-size: 18px;
+    }
+
+    .handsOfAfinaHeading {
+        gap: 25px;
+    }
+
+    .handsOnTheAfina {
+        padding-top: 30px;
+        gap: 30px;
+    }
+
+    .chooseAfinaFilteredShower {
+        gap: 25px;
+        padding-top: 30px;
+    }
+
+
+    .card1 {
+        padding: 20px 30px 20px 25px;
+    }
+
+    .chooseAfinaCardContainer {
+        gap: 25px;
+    }
+
+    .cardHeading {
+        font-size: 18px;
+    }
+
+    .card2 {
+        padding: 20px 30px 20px 25px;
+    }
+
+    .chooseAfinaCard {
+        gap: 20px;
+    }
+
+    .li-item img {
+        max-width: 15px;
+    }
+
+    .li-item {
+        gap: 8px;
+
+    }
+
+    .li-item p {
+        font-size: 16px;
+    }
+
+    .checkpointsList {
+        gap: 12px;
+    }
+
+    .whyAfinaReplacement {
+        gap: 25px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .whyAfinaPara {
+        gap: 25px;
+    }
+
+    .whyAfinaCardContainer {
+        padding: 20px 15px 0px 20px;
+    }
+
+    .dontMissOut {
+        padding: 22px 25px 15px 22px;
+        gap: 18px;
+    }
+
+    .dontMissOutPara {
+        gap: 20px;
+        padding-bottom: 35px;
+    }
+
+    .riskFreeAvailabiltyContainer span p {
+        font-size: 18px;
+        gap: 15px;
+
+    }
+
+    .riskFreeTop span {
+        font-size: 14px;
+    }
+
+    .riskFreeBottom span p {
+        font-size: 14px;
+    }
+
+    .takeFirstStep {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        gap: 25px;
+    }
+
+    .takeFirstStepImageBox {
+        gap: 10px;
+    }
+
+    .takeFirstStepPara {
+        gap: 22px;
+        margin-bottom: 20px;
+    }
+
+    .commentsSection {
+        gap: 25px;
+    }
+
+    .commentMainBox {
+        gap: 15px;
+        padding-top: 6px;
+    }
+
+    .commentPersonName {
+        font-size: 16px;
+    }
+
+    .commentPersonLocation {
+        font-size: 13px;
+    }
+
+    .commentOfPerson {
+        font-size: 15px;
+    }
+
+    .commentLikesAndReply {
+        font-size: 13px;
+        gap: 8px;
+    }
+
+    .comment1,
+    .comment2,
+    .comment3,
+    .comment4 {
+        padding-bottom: 20px;
+    }
+
+    .loadMoreComments {
+        font-size: 13px;
+    }
+
+    .loadMoreCommentsBox {
+        padding: 10px 0px;
+    }
+
+    .moreSkinCareToday {
+        gap: 25px;
+        padding-bottom: 35px;
+    }
+
+    .moreSkinCareCard {
+        gap: 12px;
+    }
+
+    .moreSkinCareCardsContainer {
+        gap: 8px;
+    }
+
+    .moreSkinCareCardInfo {
+        font-size: 13px;
+        letter-spacing: 0px;
+        line-height: 20px;
+        color: #1a1a1a;
+        font-weight: 700;
+        font-family: "Merriweather";
+    }
+
+    .featuredProductBox {
+        gap: 20px;
+        padding: 20px 17px 20px 17px;
+    }
+
+    .featuredTag {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .featuredDescHeading {
+        font-size: 14px;
+    }
+
+    .featuredDescBox {
+        gap: 8px;
+        padding-bottom: 15px;
+    }
+
+    .featuredProductsCheckpointsListItemText {
+        font-size: 13px;
+    }
+
+    .featuredProductCheckAvailabiltySpan {
+        font-size: 14px;
+        line-height: 38px;
+    }
+
+    .moneyBackGuaranteeBox {
+        display: flex;
+        justify-content: center;
+    }
+
+    .weeklyBeautyBriefHeadingBox {
+        gap: 6px;
+    }
+
+    .weeklyBeautyBriefHeading {
+        font-size: 15px;
+    }
+
+    .emailInput {
+        width: 100%;
+        padding: 12px 7px 12px 7px;
+    }
+
+    .subscribeFreeBoxSpan {
+        gap: 8px;
+        width: 100%;
+        padding: 10px 0px;
+
+        font-size: 14px;
+
+    }
+
+    .trendingThisWeekContainer {
+        padding-top: 22px;
+    }
+
+    .trendingContentCard {
+        gap: 20px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+
+}
+
+@media (max-width:786px) {
+
+    .Heading {
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .moreSkinCareToday {
+        gap: 2px;
+        padding-bottom: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .moreSkinCareCardsContainer {
+        /* gap: 8px; */
+        column-gap: 20px;
+        row-gap: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .moreSkinCareCard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .moreSkinCareCardImageBox {
+        width: 100%;
+    }
+
+    .moreSkinCareCardInfoBox {
+        width: 100%;
+
+    }
+
+}
+
+@media (max-width:629px) {
+
+    .container {
+        margin: 0px auto;
+        padding-left: 10px;
+        padding-right: 0px;
+    }
+
+    .mainLeft {
+        width: 100%;
+        max-width: 100%;
+        padding-right: 10px;
+    }
+
+    .mainRight {
+        width: 100%;
+        max-width: 100%;
+        padding-right: 10px;
+
+        gap: 20px;
+    }
+
+    .hairBreakoutSkinHairCardContainer {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+
+    .Heading {
+        font-size: 28px;
+        letter-spacing: 0px;
+        line-height: 38px;
+        color: #1a1a1a;
+        font-weight: 700;
+        font-family: "Merriweather";
+    }
+
+    .filteredShowerHeading {
+        margin: 0px auto;
+        gap: 24px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .filterShowerEditor {
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+    }
+
+    .editorLeft {
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: flex-start;
+    gap: 20px;
+}
+}
+
+
+@media (max-width:521px) {
+    .editorLeft {
+        gap: 10px;
+    }
+
+    .editorNameAndDesg {
+        gap: 8px;
+    }
+
+    .editorDateTime span {
+        font-size: 12px;
+        letter-spacing: 0px;
+        /* line-height: 58px; */
+        color: #777777;
+        font-weight: 500;
+        font-family: "Source Sans 3";
+        white-space: nowrap;
+        border-left: 1px solid #777777;
+        padding-left: 7px;
+    }
+
+    .editorName span {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+    }
+
+
+}
