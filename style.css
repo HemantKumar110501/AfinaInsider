@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+
+/* mobileImage:- display None */
+/* desktopImage:- display flex (this class is given after jessicas journey) */
 * {
     margin: 0;
     padding: 0;
@@ -295,6 +298,11 @@ img {
     gap: 20px;
 }
 
+.mobileeditorDateTime,
+.mobileeditorMsgRead {
+    display: none;
+}
+
 .editorNameAndDesg {
     display: flex;
     flex-direction: row;
@@ -347,6 +355,8 @@ img {
     color: #a7a7a7;
     font-weight: 400;
     font-family: "Source Sans 3";
+
+    display: flex;
 }
 
 .nameEditor img {
@@ -395,7 +405,7 @@ img {
     justify-content: flex-start;
     align-items: center;
     /* padding: 10px; */
-    gap: 10px;
+    gap: 5px;
 }
 
 
@@ -458,7 +468,7 @@ img {
 .showerGirl {
     background-image: url("./assets/images/shower-bg-image.png");
     background-position: center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
 
 
 }
@@ -615,6 +625,10 @@ img {
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
 
+}
+
+.mobileImage {
+    display: none;
 }
 
 
@@ -909,7 +923,7 @@ img {
     gap: 56px;
     align-items: center;
 
-    
+
 
 }
 
@@ -1157,7 +1171,10 @@ img {
 
 .hairBreakoutSkinHairCardInfo {
     padding: 15px 0px;
-
+    height: 78px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #f14040;
 }
 
@@ -1522,6 +1539,10 @@ img {
     width: 45%;
 }
 
+.mobileStatsBox {
+    display: none;
+}
+
 .elevateSkincareStat {
     display: flex;
     flex-direction: column;
@@ -1626,9 +1647,61 @@ img {
     font-family: "Merriweather";
 }
 
-.afinaInstallandMaintainCardContainer {
+/* mobile card */
+.afinaInstallandMaintainCardContainerMobile {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.afinaInstallandMaintainCardsMobile{
     display: flex;
     flex-direction: row;
+    
+
+    background-color: #f8f8f8;
+
+}
+
+.afinaInstallandMaintainCardsMobileDesc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.CardMobileStep {
+    padding: 10px 10px 10px 10px;
+
+    width: fit-content;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Merriweather";
+
+    border-radius: 5px;
+    background-color: #1ba9ba;
+}
+
+.CardMobileText {
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Merriweather";
+}
+
+
+
+/*desktop card  */
+.afinaInstallandMaintainCardContainer {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
     gap: 12px;
 }
 
@@ -1662,7 +1735,9 @@ img {
     font-weight: 600;
     font-family: "Merriweather";
     text-align: center;
-    white-space: nowrap;
+    white-space: normal;
+    max-width: 100%;
+    overflow-wrap: break-word;
 }
 
 .afinaInstallStepNoBox {
