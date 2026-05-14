@@ -1096,6 +1096,14 @@
         width: 100%;
     }
 
+    .afinaInstallandMaintainCardContainerMobile {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+
     /* .elevateSkincareStatsBox {
         width: 65%;
     } */
@@ -1649,6 +1657,10 @@
         white-space: pre-wrap;
 
         padding: 10px 53px 10px 53px;
+    }
+
+    .takeFirstStep .takeFirstStepSpanP{
+        padding: 10px 70px 10px 70px;
     }
 
     .riskFreeBottom span p {

@@ -631,6 +631,10 @@ img {
     display: none;
 }
 
+.mainRight .mobileImage{
+    display: none;
+}
+
 
 .jessicaPara1 {
     display: flex;
@@ -1648,12 +1652,14 @@ img {
 }
 
 /* mobile card */
-.afinaInstallandMaintainCardContainerMobile {
+
+
+/* .afinaInstallandMaintainCardContainerMobile {
     display: flex;
     flex-direction: column;
     gap: 20px;
 
-}
+} */
 
 .afinaInstallandMaintainCardsMobile{
     display: flex;
